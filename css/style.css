@@ -1,0 +1,51 @@
+@media (max-width: 460px){
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  #main {
+    margin: 0;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#main {
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  margin: 0 auto;
+  width: 90%;
+}
+
+img {
+  width: 95%;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
