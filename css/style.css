@@ -1,8 +1,9 @@
-@media (max-width: 460px){
+@media (max-width: 460px) {
   h1 {
     font-size: 3.5rem;
     line-height: 1.2;
   }
+  
   #main {
     margin: 0;
   }
@@ -27,15 +28,12 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
+  width: 95%;
 }
 
 #img-div {
   margin: 0 auto;
   width: 90%;
-}
-
-img {
-  width: 95%;
 }
 
 #tribute-info {
